@@ -14,7 +14,11 @@ let i = 0;
 
 while (i < ingredienti.length) {
     // CREO UN ELEMENTO LI PER OGNI INGREDIENTE
-    const elementoLista = document.createElement('li');
-
+    const elementoLista = document.createElement('li')
+    // INSERISCO IL TESTO NELL'ELEMENTO LI
+    elementoLista.innerHTML = ingredienti[i];
+    // APPENDO I LIST ITEM ALL'INTERNO DELLA LISTA SPESA
+    lista_spesa.append(elementoLista);
+    
 }
 

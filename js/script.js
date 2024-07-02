@@ -19,6 +19,7 @@ while (i < ingredienti.length) {
     elementoLista.innerHTML = ingredienti[i];
     // APPENDO I LIST ITEM ALL'INTERNO DELLA LISTA SPESA
     lista_spesa.append(elementoLista);
-    
+    // CONTATORE INCREMENTO
+    i++;  
 }
 
